@@ -1,4 +1,4 @@
 class BeerOfTheDay::Beer
-    attr_accessor :name, :category, :brewery
+    attr_accessor :name, :category, :brewery, :url 
 
 end    
