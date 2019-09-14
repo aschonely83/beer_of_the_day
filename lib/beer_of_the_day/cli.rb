@@ -10,7 +10,7 @@ class BeerOfTheDay::CLI
       puts <<-MENU
       1. Beer Name
       2. Brewery Name
-      3. Beer Catergory
+      3. Beer Category
       type "exit" or "quit" at any time to leave program.
       MENU
       while @input != "exit" && @input != "quit"
