@@ -1,0 +1,3 @@
+class BeerOfTheDay::BEER 
+
+end    
