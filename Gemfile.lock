@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     beer_of_the_day (0.1.0)
+      nokogiri
 
 GEM
   remote: https://rubygems.org/
