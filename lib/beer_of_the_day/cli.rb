@@ -1,7 +1,7 @@
 class BeerOfTheDay::CLI 
 
     def call
-      puts "Welcome to the Beer Of The Day."
+      puts "Today's Beer Of The Day."
       @input = nil
       menu
     end
