@@ -26,7 +26,7 @@ class BeerOfTheDay::CLI
         puts "Check back tomorrow for the new beer of the day."
       break
       else
-        "Not a valid option"
+        puts "Not a valid option"
       end
       end
     end        
