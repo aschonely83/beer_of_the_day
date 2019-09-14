@@ -1,7 +1,7 @@
 class BeerOfTheDay::CLI 
 
     def call
-      puts "Today's Beer Of The Day."
+      puts "Today's Beer Of The Day:"
       @input = nil
       menu
     end
@@ -23,7 +23,7 @@ class BeerOfTheDay::CLI
       when "3"
         beer_catergory  
       when "exit" || "quit"
-        puts "Thank you, take care."
+        puts "Check back tomorrow for the new beer of the day."
       break
       else
         "Not a valid option"
