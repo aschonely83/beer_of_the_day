@@ -1,4 +1,5 @@
-class BeerOfTheDay::CLI 
+module BeerOfTheDay
+  class Cli 
 
     def call
       puts "Today's Beer Of The Day:"
@@ -29,5 +30,6 @@ class BeerOfTheDay::CLI
         puts "Not a valid option, select 1-3, or exit "
       end
       end
-    end        
+    end
+  end          
 end
