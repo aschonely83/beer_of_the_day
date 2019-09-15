@@ -4,4 +4,4 @@ require "bundler"
 require "bundler/setup"
 require_relative "../lib/beer_of_the_day"
 
-BeerOfTheDay::CLI.new.call
+BeerOfTheDay::Cli.new.call
