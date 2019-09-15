@@ -2,6 +2,7 @@ module BeerOfTheDay
   class Cli 
 
     def call
+      BeerOfTheDay::Scraper.scrape
       puts "Today's Beer Of The Day:"
       @input = nil
       menu
@@ -11,15 +12,15 @@ module BeerOfTheDay
       puts <<-MENU
       1. Beer Name
       2. Brewery Name
-      type "exit" or "quit" at any time to leave program.
+      type "exit" at any time to leave program.
       MENU
       while @input != "exit" 
       @input = gets.strip
       case @input
       when "1"
-        name
+        @name
       when "2"
-        brewery
+        @brewery
       when "exit" 
         puts "Check back tomorrow for the new beer of the day."
       break
