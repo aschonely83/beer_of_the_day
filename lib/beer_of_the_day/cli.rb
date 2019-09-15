@@ -17,11 +17,11 @@ class BeerOfTheDay::CLI
       @input = gets.strip
       case @input
       when "1"
-        @name
+        name
       when "2"
-        @brewery
+        brewery
       when "3"
-        @catergory  
+        catergory  
       when "exit" 
         puts "Check back tomorrow for the new beer of the day."
       break
