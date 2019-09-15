@@ -6,7 +6,7 @@ module BeerOfTheDay
     def initialize(name, brewery)
       @name = name
       @category = category
-      @brewery =brewery
+      @brewery = brewery
       @@all << self
     end  
     
