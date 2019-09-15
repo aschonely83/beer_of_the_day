@@ -13,7 +13,7 @@ class BeerOfTheDay::CLI
       3. Beer Category
       type "exit" or "quit" at any time to leave program.
       MENU
-      while @input != "exit" && @input != "quit"
+      while @input != "exit" 
       @input = gets.strip
       case @input
       when "1"
@@ -22,11 +22,11 @@ class BeerOfTheDay::CLI
         brewery_name
       when "3"
         beer_catergory  
-      when "exit" || "quit"
+      when "exit" 
         puts "Check back tomorrow for the new beer of the day."
       break
       else
-        puts "Not a valid option, select 1-3, exit or quit"
+        puts "Not a valid option, select 1-3, or exit "
       end
       end
     end        
