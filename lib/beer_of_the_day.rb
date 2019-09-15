@@ -1,8 +1,6 @@
-require 'open-uri'
-require 'nokogiri'
-require 'pry'
+require "beer_of_the_day/version"
 
-require_relative "./beer_of_the_day/version"
-require_relative "./beer_of_the_day/scraper"
-require_relative "./beer_of_the_day/beer"
-require_relative "./beer_of_the_day/cli"
+module BeerOfTheDay
+end
+
+require_relative '../config/environment'
