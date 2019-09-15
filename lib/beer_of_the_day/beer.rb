@@ -1,15 +1,15 @@
 module BeerOfTheDay
   class Beer
-    attr_accessor :name, :category, :brewery, :url
+    attr_accessor :name, :brewery
     @@all = [] 
   
-    def initialize(name, category, brewery, url)
+    def initialize(name, brewery)
       @name = name
       @category = category
       @brewery =brewery
-      @url = url
       @@all << self
     end  
+    
     def self.all
       @@all
     end

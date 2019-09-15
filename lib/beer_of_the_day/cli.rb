@@ -11,7 +11,6 @@ module BeerOfTheDay
       puts <<-MENU
       1. Beer Name
       2. Brewery Name
-      3. Beer Category
       type "exit" or "quit" at any time to leave program.
       MENU
       while @input != "exit" 
@@ -21,8 +20,6 @@ module BeerOfTheDay
         name
       when "2"
         brewery
-      when "3"
-        catergory  
       when "exit" 
         puts "Check back tomorrow for the new beer of the day."
       break
