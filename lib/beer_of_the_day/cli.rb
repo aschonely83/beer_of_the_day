@@ -10,17 +10,11 @@ module BeerOfTheDay
     def list_beer
       puts "Today's Beer Of The Day:"
       @name = BeerOfTheDay::Scraper.scrape
-      @name.each.with_index(1) do |beer, i|
-        puts "#{i}. #{beer.name}"
-      end
     end
     
     def list_brewery
-      puts "Today's Beer Of The Day:"
+      puts "Today's Brewery Of The Day:"
       @brewery = BeerOfTheDay::Scraper.scrape
-      @brewery.each.with_index(1) do |brewery, i|
-        puts "#{i}. #{brewery.name}"
-      end
     end
     
 
