@@ -6,7 +6,7 @@ module BeerOfTheDay
 
       name = doc.css('h1.beer_title').text
       brewery = doc.css('a.dark_link').first.text
-      BeerOfTheDay::Beer.new(name, brewery)
+      BeerOfTheDay::Beer.new(name, brewery) 
     end
   end
 end
