@@ -37,9 +37,9 @@ module BeerOfTheDay
       MENU
      
       case @input
-      when == "1"
+      when @input == "1"
         list_beer
-      when == "2"
+      when @input == "2"
         list_brewery
       when "exit" 
         puts "Check back tomorrow for the new beer of the day."
