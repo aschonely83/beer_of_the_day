@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     beer_of_the_day (0.1.0)
-      nokogiri
+      nokogiri (~> 1.10)
 
 GEM
   remote: https://rubygems.org/
@@ -32,7 +32,7 @@ DEPENDENCIES
   bundler (~> 2.0)
   httparty
   nokogiri
-  pry
+  pry (~> 0.12.2)
   rake (~> 10.0)
 
 BUNDLED WITH
