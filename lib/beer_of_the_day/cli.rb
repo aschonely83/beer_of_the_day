@@ -1,4 +1,3 @@
- 
 module BeerOfTheDay
   class Cli 
 
@@ -16,7 +15,7 @@ module BeerOfTheDay
           puts "This is the brewery that makes the beer of the day:"
         elsif @input == "menu"
           menu
-        elsif == "exit" 
+        elsif @input == "exit" 
           puts "Check back tomorrow for the new beer of the day."
         break
         else
